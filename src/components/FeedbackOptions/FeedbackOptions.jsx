@@ -17,7 +17,7 @@ export class FeedbackOptions extends Component {
 
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(
-    PropTypes.oneOf(['good', 'neutral', 'bad'])
+    PropTypes.oneOf(['Good', 'Neutral', 'Bad'])
   ).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 }
